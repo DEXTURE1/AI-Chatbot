@@ -65,21 +65,23 @@ It enhances usability through efficient API handling, interactive features, and 
 ```bash
 git clone https://github.com/<your-username>/AI-CHATBOT.git
 cd AI-CHATBOT
+```
 🔹 Step 2: Install Dependencies
 Install all required dependencies using:
 
-bash
-Copy code
+
+```bash
 npm install
+```
 🔹 Step 3: Setup Environment Variables
 Create a .env file in the root directory and add your API keys:
-
+```
 ini
 Copy code
 OPENAI_API_KEY=your_chatgpt_api_key
 GEMINI_API_KEY=your_gemini_api_key
 ⚠️ Replace the keys with your actual API credentials.
-
+```
 🔹 Step 4: Run the Project
 Since the project includes frontend and backend, open two terminals:
 
@@ -87,14 +89,18 @@ Terminal 1 – Run Backend
 
 bash
 Copy code
+```
 cd backend
 npm start
+```
 Terminal 2 – Run Frontend
 
 bash
 Copy code
+```
 cd frontend
 npm start
+```
 After both servers start successfully, open:
 👉 http://localhost:3000
 
@@ -154,20 +160,22 @@ Regenerate, stop, or delete chats as needed.
 
 Toggle between dark and light modes for comfort.
 
-📸 Screenshots (optional)
-You can add your own screenshots below 👇
+📸 Screenshots::
+1. Signup Page:
+<img width="1918" height="856" alt="image" src="https://github.com/user-attachments/assets/c3cfd89b-1ab7-4677-8794-7d818c99be62" />
+2. Main Page:
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/e75888ba-d8a3-400e-b0aa-06c4a6a823b0" />
 
 markdown
 Copy code
+```
 ![Chat Interface](screenshots/chat.png)
 ![Dark Mode](screenshots/darkmode.png)
-
+```
 👨‍💻 Developers Info
 Name: Satyam Gupta and Aryan Sharma
-UID: 23BCS11236 and 23BCS10279
+UID: 23BCS13673 and 23BCS10279
 Class: 633'A'
-
-
 
 Project: AI-CHATBOT
 Course: B.Tech CSE
@@ -179,8 +187,3 @@ It simplifies communication with AI, offering flexibility, accessibility, and an
 
 ⭐ If you found this project helpful, don’t forget to give it a star on GitHub!
 
-.......
-
-✅ Just copy and paste this entire content into your `README.md` file.  
-
-Would you like me to also give you **a matching `.gitignore`** (for Node + React + environment safety) to include in your repo? It’ll keep your `.env` and other unnecessary files hidden from GitHub.
