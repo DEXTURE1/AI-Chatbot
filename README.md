@@ -75,13 +75,15 @@ npm install
 ```
 🔹 Step 3: Setup Environment Variables
 Create a .env file in the root directory and add your API keys:
-```
+
 ini
 Copy code
+```
 OPENAI_API_KEY=your_chatgpt_api_key
 GEMINI_API_KEY=your_gemini_api_key
-⚠️ Replace the keys with your actual API credentials.
 ```
+⚠️ Replace the keys with your actual API credentials.
+
 🔹 Step 4: Run the Project
 Since the project includes frontend and backend, open two terminals:
 
@@ -165,6 +167,8 @@ Toggle between dark and light modes for comfort.
 <img width="1918" height="856" alt="image" src="https://github.com/user-attachments/assets/c3cfd89b-1ab7-4677-8794-7d818c99be62" />
 2. Main Page:
 <img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/e75888ba-d8a3-400e-b0aa-06c4a6a823b0" />
+
+
 
 markdown
 Copy code
